@@ -8,6 +8,8 @@
         l1.loggerMessage();
         l2.loggerMessage();
 
+
+        //Checking the singletons instances
         if (l1 == l2)
         {
             Console.WriteLine("Singleton is working on both instances.");
@@ -21,7 +23,7 @@
 
     }
 }
-
+//This is a Logger class
 public sealed class Logger
 {
     private static Logger Instance = new Logger();
